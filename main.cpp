@@ -11,7 +11,8 @@ int test_value=0;
 
 pthread_mutex_t mutex; //声明互斥锁标识符
 
-int main() {
+
+int mainss() {
 
     //1.建立场景, 同事执行多个线程, 打印数字
     pthread_t ptIds[THREAD_NUMS];

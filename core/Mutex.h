@@ -9,6 +9,9 @@
 class Mutex {
 
 
+public:
+    Mutex();
+    ~Mutex();
 
 };
 
